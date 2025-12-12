@@ -36,10 +36,10 @@ const Hero = () => {
           >
             <span className="gradient-text-main">CarliniDevs</span>
             <br />
-            <span className="hero-subtitle-inline">Transformamos tu Empresa con</span>
+            <span className="hero-subtitle-inline">Aplicaciones Web y Apps Android</span>
             <br />
             <span className="gradient-text-secondary-wrapper">
-              <span className="gradient-text-secondary">Inteligencia Artificial</span>
+              <span className="gradient-text-secondary">Hechas a Medida</span>
             </span>
           </motion.h1>
           
@@ -50,7 +50,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
           >
             Soluciones informáticas personalizadas para pequeña y mediana empresa.
-            Desarrollamos aplicaciones web a medida que se adaptan perfectamente a tus necesidades específicas.
+            Desarrollamos aplicaciones web a medida y apps Android personalizadas que se adaptan perfectamente a tus necesidades específicas.
           </motion.p>
           
           <motion.div 

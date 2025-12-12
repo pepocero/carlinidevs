@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import CustomApps from './components/CustomApps/CustomApps'
 import Services from './components/Services/Services'
 import Portfolio from './components/Portfolio/Portfolio'
 import Advantages from './components/Advantages/Advantages'
@@ -40,6 +41,7 @@ function App() {
       <ParticlesBackground />
       <Navbar />
       <Hero />
+      <CustomApps />
       <Services />
       <Portfolio />
       <Advantages />
