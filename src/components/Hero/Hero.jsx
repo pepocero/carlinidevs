@@ -34,24 +34,29 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            <span className="gradient-text-main">CarliniDevs</span>
-            <br />
-            <span className="hero-subtitle-inline">Aplicaciones Web y Apps Android</span>
-            <br />
-            <span className="gradient-text-secondary-wrapper">
-              <span className="gradient-text-secondary">Hechas a Medida</span>
-            </span>
+            <div className="hero-brand-name">
+              <span className="gradient-text-main">CarliniDevs</span>
+            </div>
+            <div className="hero-tagline">
+              <span className="gradient-text-secondary-wrapper">
+                <span className="gradient-text-secondary">Aplicaciones Web y Apps Android a Medida</span>
+              </span>
+            </div>
           </motion.h1>
           
-          <motion.p 
+          <motion.div 
             className="hero-subtitle"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Soluciones informáticas personalizadas para pequeña y mediana empresa.
-            Desarrollamos aplicaciones web a medida y apps Android personalizadas que se adaptan perfectamente a tus necesidades específicas.
-          </motion.p>
+            <p>
+              Ofrecemos soluciones tecnológicas personalizadas para pequeñas y medianas empresas, diseñadas para optimizar procesos, potenciar la eficiencia operativa y respaldar la transformación digital de tu organización.
+            </p>
+            <p>
+              Nuestro equipo desarrolla aplicaciones web y apps Android completamente adaptadas a los requisitos específicos de cada proyecto, garantizando calidad, seguridad y escalabilidad.
+            </p>
+          </motion.div>
           
           <motion.div 
             className="hero-buttons"

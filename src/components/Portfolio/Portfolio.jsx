@@ -145,7 +145,7 @@ const Portfolio = () => {
         >
           <h3 className="portfolio-category-title">
             <FaGlobe className="category-icon" />
-            Sitios Web Desarrollados
+            Algunos Sitios Web Diseñados
           </h3>
           <div className="portfolio-grid">
             {websites.map((project, index) => (

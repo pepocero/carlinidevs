@@ -52,6 +52,7 @@ const Navbar = () => {
 
           <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
             <li><a href="#inicio" onClick={(e) => handleNavClick(e, 'inicio')} className="nav-link">Inicio</a></li>
+            <li><a href="#apps-medida" onClick={(e) => handleNavClick(e, 'apps-medida')} className="nav-link">Apps a Medida</a></li>
             <li><a href="#servicios" onClick={(e) => handleNavClick(e, 'servicios')} className="nav-link">Servicios</a></li>
             <li><a href="#portfolio" onClick={(e) => handleNavClick(e, 'portfolio')} className="nav-link">Portfolio</a></li>
             <li><a href="#ia" onClick={(e) => handleNavClick(e, 'ia')} className="nav-link">Soluciones IA</a></li>

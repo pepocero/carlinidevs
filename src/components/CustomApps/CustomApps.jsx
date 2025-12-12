@@ -52,7 +52,7 @@ const CustomApps = () => {
           transition={{ duration: 0.6 }}
           ref={ref}
         >
-          <h2 className="section-title">Diseño de Apps Hechas a Medida</h2>
+          <h2 className="section-title">Diseño de Apps a Medida</h2>
           <p className="section-subtitle">
             Cada usuario y empresa tiene necesidades únicas. Por eso diseñamos aplicaciones web y apps Android completamente personalizadas, 
             teniendo en cuenta cada detalle específico de tu negocio para crear la solución perfecta que se adapte exactamente a lo que necesitas.

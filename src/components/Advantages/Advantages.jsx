@@ -17,8 +17,8 @@ const Advantages = () => {
     },
     {
       icon: <FaPuzzlePiece />,
-      title: 'Sin Huecos Funcionales',
-      description: 'A diferencia de los CRM genéricos, cubrimos absolutamente todas tus necesidades sin dejar nada sin resolver.'
+      title: 'Entender para Crear',
+      description: 'Nuestras soluciones nacen de un análisis completo de tu empresa, tus procesos y tu forma real de trabajar. Diseñamos herramientas digitales totalmente a medida para que cada necesidad quede cubierta'
     },
     {
       icon: <FaBrain />,
