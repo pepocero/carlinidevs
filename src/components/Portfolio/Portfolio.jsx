@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaGlobe, FaCode, FaExternalLinkAlt, FaLaptopCode, FaTools, FaChalkboardTeacher, FaFileDownload, FaFilePdf, FaFileWord, FaClipboardList, FaGraduationCap, FaStopwatch, FaQrcode } from 'react-icons/fa'
+import { FaGlobe, FaCode, FaExternalLinkAlt, FaLaptopCode, FaTools, FaChalkboardTeacher, FaFileDownload, FaFilePdf, FaFileWord, FaClipboardList, FaGraduationCap, FaStopwatch, FaQrcode, FaCalculator, FaGift, FaEdit } from 'react-icons/fa'
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -46,65 +46,33 @@ const Portfolio = () => {
 
   const customApps = [
     {
-      name: 'Extractor de Enlaces Torrent',
-      url: 'https://candeivid.com/extractor/index.html',
-      description: 'Herramienta de automatización para extracción de enlaces torrent de webs de descargas.',
-      icon: <FaFileDownload />,
-      tech: 'Automatización Web',
-      image: '/extractor.PNG'
+      name: 'Contadores sin Incidentes',
+      url: 'https://contador.carlinitools.com/',
+      description: 'Sistema de contadores robusto y confiable para gestionar eventos, métricas y números sin fallos ni incidentes.',
+      icon: <FaCalculator />,
+      tech: 'Aplicación Web',
+      image: '/contadores.png'
     },
     {
-      name: 'Gestor de Trackers',
-      url: 'https://candeivid.com/trackers/index.php',
-      description: 'App que une trackers actualizados para torrents, manteniéndolos siempre al día.',
-      icon: <FaCode />,
-      tech: 'PHP + API',
-      image: '/trackers.PNG'
-    },
-    {
-      name: 'Pizarra Interactiva',
-      url: 'https://pizarra.carlinitools.com',
-      description: 'Pizarra avanzada que convierte texto en tarjetas interactivas. Permite dibujar, vincular, agrupar y mover elementos.',
-      icon: <FaLaptopCode />,
-      tech: 'JavaScript + Canvas',
-      image: '/pizarra.PNG'
-    },
-    {
-      name: 'Editor PDF Profesional',
-      url: 'https://candeivid.com/pdf/presentacion.html',
-      description: 'Editor PDF completo: agregar imágenes, textos, resaltar, dibujar, formas y más funcionalidades.',
-      icon: <FaFilePdf />,
-      tech: 'PDF.js + Canvas',
-      image: '/editorpdf.PNG'
-    },
-    {
-      name: 'Conversor de Archivos',
-      url: 'https://candeivid.com/conversor/index.html',
-      description: 'Conversor multiformato: Texto a PDF, PDF a Word y convertidor de audio.',
-      icon: <FaFileWord />,
-      tech: 'Procesamiento de Archivos',
-      image: '/conversor.PNG'
+      name: 'El Pot de la Sort',
+      url: 'https://elpotdelasort.carlinitools.com/',
+      description: 'Aplicación para realizar sorteos aleatorios de forma justa y transparente. Perfecta para instituciones educativas, para crear grupos de trabajo o elegir aleatoriamente líderes de grupos. ',
+      icon: <FaGift />,
+      tech: 'Sistema de Sorteos',
+      image: '/potdelasort.png'
     },
     {
       name: 'Gestión de Partes de Trabajo',
       url: 'https://gestiogar.carlinitools.com/',
       description: 'Sistema completo para empresas de reparaciones del hogar. Gestión de clientes, trabajos y presupuestos.',
       icon: <FaClipboardList />,
-      tech: 'React + Vercel',
+      tech: 'Gestiogar',
       image: '/partestrabajo.PNG'
     },
     {
-      name: 'Sistema de Gestión Educativa',
-      url: 'https://gestionetbb.com/',
-      description: 'Plataforma integral para gestión de alumnos, profesores, materias, carreras y calificaciones.',
-      icon: <FaGraduationCap />,
-      tech: 'Sistema Completo',
-      image: '/gestioneducativa.PNG'
-    },
-    {
-      name: 'Control de horas de trabajo',
+      name: 'Control de Horas de Trabajo',
       url: 'https://hourly.carlinitools.com/',
-      description: 'Control de horas trabajadas para freelancers, autónomos y empresas.',
+      description: 'Control de horas trabajadas para freelancers, autónomos y empresas. Registro preciso y gestión de tiempos.',
       icon: <FaStopwatch />,
       tech: 'Sistema Completo',
       image: '/hourly.PNG'
@@ -116,8 +84,31 @@ const Portfolio = () => {
       icon: <FaQrcode />,
       tech: 'QR Generator',
       image: '/qr.PNG'
+    },
+    {
+      name: 'Editor PDF Profesional',
+      url: 'https://candeivid.com/pdf/presentacion.html',
+      description: 'Editor PDF completo: agregar imágenes, textos, resaltar, dibujar, formas y más funcionalidades.',
+      icon: <FaFilePdf />,
+      tech: 'PDF Profesional',
+      image: '/editorpdf.PNG'
+    },
+    {
+      name: 'Conversor de Archivos',
+      url: 'https://candeivid.com/conversor/index.html',
+      description: 'Conversor multiformato: Texto a PDF, PDF a Word y convertidor de audio.',
+      icon: <FaFileWord />,
+      tech: 'Procesamiento de Archivos',
+      image: '/conversor.PNG'
+    },
+    {
+      name: 'Whiteboard - Pizarra Colaborativa',
+      url: 'https://whiteboard.carlinitools.com/',
+      description: 'Pizarra colaborativa virtual que permite crear diagramas con estilo dibujado a mano. Herramienta intuitiva para brainstorming y trabajo en equipo.',
+      icon: <FaEdit />,
+      tech: 'Pizarra Colaborativa',
+      image: '/pizarra.PNG'
     }
-
   ]
 
   return (
