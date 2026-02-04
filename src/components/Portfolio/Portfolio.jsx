@@ -88,7 +88,7 @@ const Portfolio = () => {
     {
       name: 'Editor PDF Profesional',
       url: 'https://candeivid.com/pdf/presentacion.html',
-      description: 'Editor PDF completo: agregar imágenes, textos, resaltar, dibujar, formas y más funcionalidades.',
+      description: 'Editor PDF completo: agregar imágenes, textos, resaltar, dibujar, formas y más funcionalidades. Está optimizado para dispositivos de escritorio, por lo que en moviles algunos aspectos visuales pueden verse afectados.',
       icon: <FaFilePdf />,
       tech: 'PDF Profesional',
       image: '/editorpdf.PNG'
@@ -104,10 +104,18 @@ const Portfolio = () => {
     {
       name: 'Whiteboard - Pizarra Colaborativa',
       url: 'https://whiteboard.carlinitools.com/',
-      description: 'Pizarra colaborativa virtual que permite crear diagramas con estilo dibujado a mano. Herramienta intuitiva para brainstorming y trabajo en equipo.',
+      description: 'Pizarra colaborativa virtual que permite crear diagramas con estilo dibujado a mano. Agregada la funcionalidad de crear tarjetas estilo posit para organizar ideas.Herramienta intuitiva para brainstorming y trabajo en equipo.',
       icon: <FaEdit />,
       tech: 'Pizarra Colaborativa',
       image: '/pizarra.PNG'
+    },
+    {
+      name: 'Escuela de teatro - Campus virtual',
+      url: 'https://gestionetbb.com/',
+      description: 'Plataforma de gestión educativa para escuelas de teatro. Permite la administración de cursos, alumnos y recursos de manera eficiente.',
+      icon: <FaEdit />,
+      tech: 'Campus Virtual Completo',
+      image: '/gestioneducativa.PNG'
     }
   ]
 
