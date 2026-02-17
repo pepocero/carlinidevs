@@ -1,4 +1,4 @@
-# 🚀 CarliniDevs - Website Profesional
+# 🚀 CarliniTools - Website Profesional
 
 Aplicación web moderna desarrollada con React, Vite y Cloudflare Functions para empresa de soluciones informáticas enfocada en PyMEs.
 
@@ -246,7 +246,7 @@ Este proyecto está bajo licencia MIT.
 
 ## 👨‍💻 Autor
 
-**CarliniDevs**
+**CarliniTools**
 - Email: pepocero@gmail.com
 - Website: [Tu dominio en Cloudflare Pages]
 

@@ -35,7 +35,7 @@ const Hero = () => {
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             <div className="hero-brand-name">
-              <span className="gradient-text-main">CarliniDevs</span>
+              <span className="gradient-text-main">CarliniTools</span>
             </div>
             <div className="hero-tagline">
               <span className="gradient-text-secondary-wrapper">

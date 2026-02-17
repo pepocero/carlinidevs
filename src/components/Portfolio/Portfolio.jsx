@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaGlobe, FaCode, FaExternalLinkAlt, FaLaptopCode, FaTools, FaChalkboardTeacher, FaFileDownload, FaFilePdf, FaFileWord, FaClipboardList, FaGraduationCap, FaStopwatch, FaQrcode, FaCalculator, FaGift, FaEdit } from 'react-icons/fa'
+import { FaGlobe, FaCode, FaExternalLinkAlt, FaLaptopCode, FaTools, FaChalkboardTeacher, FaFileDownload, FaFilePdf, FaFileWord, FaClipboardList, FaGraduationCap, FaStopwatch, FaQrcode, FaCalculator, FaGift, FaEdit, FaMobileAlt } from 'react-icons/fa'
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -46,12 +46,12 @@ const Portfolio = () => {
 
   const customApps = [
     {
-      name: 'Contadores sin Incidentes',
-      url: 'https://contador.carlinitools.com/',
-      description: 'Sistema de contadores robusto y confiable para gestionar eventos, métricas y números sin fallos ni incidentes.',
-      icon: <FaCalculator />,
-      tech: 'Aplicación Web',
-      image: '/contadores.png'
+      name: 'Escuela de teatro - Campus virtual',
+      url: 'https://gestionetbb.com/',
+      description: 'Plataforma de gestión educativa para escuelas de teatro. Permite la administración de cursos, alumnos y recursos de manera eficiente.',
+      icon: <FaGraduationCap />,
+      tech: 'Campus Virtual Completo',
+      image: '/gestioneducativa.PNG'
     },
     {
       name: 'El Pot de la Sort',
@@ -74,7 +74,7 @@ const Portfolio = () => {
       url: 'https://hourly.carlinitools.com/',
       description: 'Control de horas trabajadas para freelancers, autónomos y empresas. Registro preciso y gestión de tiempos.',
       icon: <FaStopwatch />,
-      tech: 'Sistema Completo',
+      tech: 'Hourly',
       image: '/hourly.PNG'
     },
     {
@@ -82,7 +82,7 @@ const Portfolio = () => {
       url: 'https://qr.carlinitools.com/',
       description: 'Genera códigos QR personalizados: texto, URL, email, SMS, WiFi, contacto. Personaliza colores, tamaño, logo y nivel de corrección.',
       icon: <FaQrcode />,
-      tech: 'QR Generator',
+      tech: 'QR',
       image: '/qr.PNG'
     },
     {
@@ -90,32 +90,32 @@ const Portfolio = () => {
       url: 'https://candeivid.com/pdf/presentacion.html',
       description: 'Editor PDF completo: agregar imágenes, textos, resaltar, dibujar, formas y más funcionalidades. Está optimizado para dispositivos de escritorio, por lo que en moviles algunos aspectos visuales pueden verse afectados.',
       icon: <FaFilePdf />,
-      tech: 'PDF Profesional',
+      tech: 'Editor PDF',
       image: '/editorpdf.PNG'
     },
     {
-      name: 'Conversor de Archivos',
-      url: 'https://candeivid.com/conversor/index.html',
-      description: 'Conversor multiformato: Texto a PDF, PDF a Word y convertidor de audio.',
-      icon: <FaFileWord />,
-      tech: 'Procesamiento de Archivos',
-      image: '/conversor.PNG'
+      name: 'Contadores sin Incidentes',
+      url: 'https://contador.carlinitools.com/',
+      description: 'Sistema de contadores robusto y confiable para gestionar eventos, métricas y números sin fallos ni incidentes.',
+      icon: <FaCalculator />,
+      tech: 'Contador',
+      image: '/contadores.png'
     },
     {
       name: 'Whiteboard - Pizarra Colaborativa',
       url: 'https://whiteboard.carlinitools.com/',
       description: 'Pizarra colaborativa virtual que permite crear diagramas con estilo dibujado a mano. Agregada la funcionalidad de crear tarjetas estilo posit para organizar ideas.Herramienta intuitiva para brainstorming y trabajo en equipo.',
       icon: <FaEdit />,
-      tech: 'Pizarra Colaborativa',
+      tech: 'Whiteboard',
       image: '/pizarra.PNG'
     },
     {
-      name: 'Escuela de teatro - Campus virtual',
-      url: 'https://gestionetbb.com/',
-      description: 'Plataforma de gestión educativa para escuelas de teatro. Permite la administración de cursos, alumnos y recursos de manera eficiente.',
-      icon: <FaEdit />,
-      tech: 'Campus Virtual Completo',
-      image: '/gestioneducativa.PNG'
+      name: 'Conversor de Archivos',
+      url: 'https://candeivid.com/conversor/index.html',
+      description: 'Conversor multiformato: Texto a PDF, PDF a Word y convertidor de audio.',
+      icon: <FaFileWord />,
+      tech: 'Conversor de Archivos',
+      image: '/conversor.PNG'
     }
   ]
 
@@ -192,7 +192,7 @@ const Portfolio = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
         >
           <h3 className="portfolio-category-title">
-            <FaCode className="category-icon" />
+            <FaMobileAlt className="category-icon" />
             Aplicaciones a Medida
           </h3>
           <div className="portfolio-grid apps-grid">

@@ -30,7 +30,7 @@ function App() {
           <div className="loader-ring"></div>
           <div className="loader-ring"></div>
           <div className="loader-ring"></div>
-          <span className="loader-text">CarliniDevs</span>
+          <span className="loader-text">CarliniTools</span>
         </div>
       </div>
     )
