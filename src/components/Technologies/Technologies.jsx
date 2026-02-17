@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaRobot, FaComments, FaChartLine, FaFileAlt, FaCog, FaLightbulb } from 'react-icons/fa'
+import { FaRobot, FaComments, FaChartLine, FaFileAlt, FaCog, FaLightbulb, FaEnvelope } from 'react-icons/fa'
 import './Technologies.css'
 
 const Technologies = () => {
@@ -13,8 +13,8 @@ const Technologies = () => {
     {
       icon: <FaComments />,
       title: 'Chatbots Inteligentes',
-      description: 'Asistentes virtuales 24/7 que atienden a tus clientes, resuelven dudas frecuentes y generan leads automáticamente.',
-      benefits: ['Atención 24/7', 'Reducción de costos', 'Respuestas instantáneas']
+      description: 'Asistentes virtuales 24/7 que atienden a tus clientes, resuelven dudas frecuentes y generan leads automáticamente. También creamos chatbots especializados en WhatsApp para comunicación directa con tus clientes.',
+      benefits: ['Atención 24/7', 'Reducción de costos', 'Respuestas instantáneas', 'Chatbots WhatsApp']
     },
     {
       icon: <FaFileAlt />,
@@ -45,6 +45,12 @@ const Technologies = () => {
       title: 'Generación de Contenido IA',
       description: 'Creación automática de descripciones de productos, emails personalizados, reportes y contenido marketing.',
       benefits: ['Contenido personalizado', 'Ahorro de tiempo', 'Mejora de conversión']
+    },
+    {
+      icon: <FaEnvelope />,
+      title: 'Automatizaciones de E-MAIL MARKETING',
+      description: 'Sistemas inteligentes de email marketing que segmentan audiencias, personalizan mensajes y automatizan campañas según el comportamiento de tus clientes. Envíos programados, seguimiento de aperturas y conversiones.',
+      benefits: ['Segmentación inteligente', 'Personalización automática', 'Mayor tasa de conversión', 'Análisis de resultados']
     }
   ]
 
