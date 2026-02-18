@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaRobot, FaComments, FaChartLine, FaFileAlt, FaCog, FaLightbulb, FaEnvelope } from 'react-icons/fa'
+import { FaRobot, FaComments, FaChartLine, FaFileAlt, FaCog, FaLightbulb, FaEnvelope, FaShieldAlt, FaSmile } from 'react-icons/fa'
 import './Technologies.css'
 
 const Technologies = () => {
@@ -51,6 +51,18 @@ const Technologies = () => {
       title: 'Automatizaciones de E-MAIL MARKETING',
       description: 'Sistemas inteligentes de email marketing que segmentan audiencias, personalizan mensajes y automatizan campañas según el comportamiento de tus clientes. Envíos programados, seguimiento de aperturas y conversiones.',
       benefits: ['Segmentación inteligente', 'Personalización automática', 'Mayor tasa de conversión', 'Análisis de resultados']
+    },
+    {
+      icon: <FaShieldAlt />,
+      title: 'Detección de Fraude y Seguridad con IA',
+      description: 'Sistemas inteligentes que detectan patrones sospechosos, transacciones fraudulentas y amenazas de seguridad en tiempo real. Protección proactiva de datos sensibles y prevención de fraudes antes de que ocurran.',
+      benefits: ['Detección en tiempo real', 'Reducción de fraudes', 'Protección de datos', 'Alertas automáticas']
+    },
+    {
+      icon: <FaSmile />,
+      title: 'Análisis de Sentimiento y Feedback de Clientes',
+      description: 'IA que analiza comentarios, reseñas, encuestas y conversaciones para entender el sentimiento de tus clientes. Identifica tendencias, problemas recurrentes y oportunidades de mejora en tu servicio.',
+      benefits: ['Análisis automático', 'Identificación de problemas', 'Mejora continua', 'Satisfacción del cliente']
     }
   ]
 
