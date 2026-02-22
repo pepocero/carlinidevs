@@ -111,8 +111,8 @@ const Portfolio = () => {
     },
     {
       name: 'Conversor de Archivos',
-      url: 'https://candeivid.com/conversor/index.html',
-      description: 'Conversor multiformato: Texto a PDF, PDF a Word y convertidor de audio.',
+      url: 'https://conversor.carlinitools.com/',
+      description: 'Conversor multiformato: Texto a PDF, PDF a Word, JPG a PDF y conversor de audio.',
       icon: <FaFileWord />,
       tech: 'Conversor de Archivos',
       image: '/conversor.PNG'
