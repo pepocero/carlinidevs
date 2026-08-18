@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaGlobe, FaCode, FaExternalLinkAlt, FaLaptopCode, FaTools, FaChalkboardTeacher, FaFileDownload, FaFilePdf, FaFileWord, FaClipboardList, FaGraduationCap, FaStopwatch, FaQrcode, FaCalculator, FaGift, FaEdit, FaMobileAlt } from 'react-icons/fa'
+import { FaCode, FaExternalLinkAlt, FaLaptopCode, FaFileDownload, FaFilePdf, FaFileWord, FaClipboardList, FaGraduationCap, FaStopwatch, FaQrcode, FaCalculator, FaGift, FaEdit, FaMobileAlt, FaUtensils } from 'react-icons/fa'
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -9,42 +9,15 @@ const Portfolio = () => {
     threshold: 0.1
   })
 
-  const websites = [
-    {
-      name: 'Candeivid',
-      url: 'https://candeivid.com/',
-      description: 'Sitio web completo con múltiples herramientas y aplicaciones integradas.',
-      icon: <FaGlobe />,
-      type: 'Website',
-      image: '/Candeivid.PNG'
-    },
-    {
-      name: 'Global Proyectos',
-      url: 'http://globalproyectos.net/',
-      description: 'Capacitación del personal, automatización de procesos y optimización de sistemas.',
-      icon: <FaChalkboardTeacher />,
-      type: 'Consultoría & Automatización',
-      image: '/global.PNG'
-    },
-    {
-      name: 'AMCA',
-      url: 'https://amca.es',
-      description: 'Desarrollo web profesional con diseño personalizado y funcionalidades específicas.',
-      icon: <FaGlobe />,
-      type: 'Website',
-      image: '/amca.PNG'
-    },
-    {
-      name: 'Eureko',
-      url: 'https://www.eureko.es/',
-      description: 'Implementación completa de tienda PrestaShop integrada en diseño personalizado.',
-      icon: <FaTools />,
-      type: 'E-commerce',
-      image: '/eureko.PNG'
-    }
-  ]
-
   const customApps = [
+    {
+      name: 'Paper To Menu',
+      url: 'https://papertomenu.com/',
+      description: 'Convierte cualquier carta en un menú digital con IA. Sube una foto, un PDF o un boceto a mano, edita platos y precios, y publícalo con un código QR que se actualiza sin volver a imprimir.',
+      icon: <FaUtensils />,
+      tech: 'Cartas digitales',
+      image: '/papertomenu.png'
+    },
     {
       name: 'Escuela de teatro - Campus virtual',
       url: 'https://gestionetbb.com/',
@@ -133,55 +106,6 @@ const Portfolio = () => {
           <p className="section-subtitle">
             Casos reales de éxito: sitios web profesionales y aplicaciones a medida para nuestros clientes
           </p>
-        </motion.div>
-
-        {/* Sitios Web */}
-        <motion.div 
-          className="portfolio-section"
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.2, duration: 0.6 }}
-        >
-          <h3 className="portfolio-category-title">
-            <FaGlobe className="category-icon" />
-            Algunos Sitios Web Diseñados
-          </h3>
-          <div className="portfolio-grid">
-            {websites.map((project, index) => (
-              <motion.a
-                key={index}
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="portfolio-card"
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={inView ? { opacity: 1, scale: 1 } : {}}
-                transition={{ delay: 0.3 + index * 0.1, duration: 0.5 }}
-              >
-                <div className="portfolio-image-container">
-                  <img 
-                    src={project.image} 
-                    alt={project.name}
-                    className="portfolio-image"
-                    onError={(e) => {
-                      e.target.style.display = 'none'
-                      e.target.nextSibling.style.display = 'flex'
-                    }}
-                  />
-                  <div className="portfolio-icon" style={{ display: 'none' }}>{project.icon}</div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>{project.name}</h4>
-                  <span className="portfolio-type">{project.type}</span>
-                  <p>{project.description}</p>
-                </div>
-                <div className="portfolio-link">
-                  <span>Ver proyecto</span>
-                  <FaExternalLinkAlt />
-                </div>
-              </motion.a>
-            ))}
-          </div>
         </motion.div>
 
         {/* Aplicaciones a Medida */}

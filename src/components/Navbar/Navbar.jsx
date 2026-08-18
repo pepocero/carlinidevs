@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-wrapper">
           <div className="logo">
-            <img src="/logo2tranparente.png" alt="CarliniTools Logo" className="logo-image" />
+            <img src="/favicon-azul-transparente.png" alt="CarliniTools Logo" className="logo-image" />
             <span className="logo-text">CarliniTools</span>
           </div>
           
