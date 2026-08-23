@@ -60,7 +60,7 @@ const Portfolio = () => {
     },
     {
       name: 'Editor PDF Profesional',
-      url: 'https://candeivid.com/pdf/presentacion.html',
+      url: 'https://pdf.carlinitools.com/',
       description: 'Editor PDF completo: agregar imágenes, textos, resaltar, dibujar, formas y más funcionalidades. Está optimizado para dispositivos de escritorio, por lo que en moviles algunos aspectos visuales pueden verse afectados.',
       icon: <FaFilePdf />,
       tech: 'Editor PDF',
